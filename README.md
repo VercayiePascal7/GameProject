@@ -1,2 +1,2 @@
 # GameProject
-Pascal Vercayie, Samuel Bukarica, Florian Gruber, Florian Hohenrainer
+Samuel Bukarica, Florian Gruber, Florian Hohenrainer, Pascal Vercayie
