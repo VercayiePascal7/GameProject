@@ -15,6 +15,7 @@ public class Inventory {
         items.remove(item);
     }
 
+
     public Item getItem(String name) {
         return items.stream()
                 .filter(i -> i.getName().equalsIgnoreCase(name))
