@@ -27,7 +27,7 @@ public class TestNPC {
         TalkStrategy strategy = new HintTalkStrategy();
 
         assertEquals(
-                "Ich habe gehoert, in der Hoehle liegt ein alter Schluessel...",
+                "In der Hoehle soll ein alter Schluessel liegen...",
                 strategy.getDialogue(player)
         );
     }
@@ -40,7 +40,7 @@ public class TestNPC {
         TalkStrategy strategy = new HintTalkStrategy();
 
         assertEquals(
-                "Du hast bereits den Schluessel. Gehe nach Osten zum Ausgang!",
+                "Du hast bereits den Schluessel. Suche den Ausgang im Osten!",
                 strategy.getDialogue(player)
         );
     }
